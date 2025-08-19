@@ -20,8 +20,7 @@ from langgraph.graph import StateGraph
 from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode, tools_condition
 
-key ="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"
-
+key =""
 # %% 1) define your tool
 
 # %% 2) initialize LLM

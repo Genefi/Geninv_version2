@@ -9,9 +9,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph.message import add_messages
 
 
-key ="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"
-
-# %% 1) define your tool
+key =""# %% 1) define your tool
 
 # %% 2) initialize LLM
 llm = ChatOpenAI(model="gpt-4.1", api_key=key)
