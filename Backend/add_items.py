@@ -613,7 +613,7 @@ def create_react_graph(llm_instance):
     return graph_builder.compile(checkpointer=memory)
 
 
-def run_conversation(user_message: str, thread_id: str = "default"):
+def run_conversation_item(user_message: str, thread_id: str = "default"):
     """Helper function to run a single conversation turn"""
     graph = create_react_graph(llm)
     
