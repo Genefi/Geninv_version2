@@ -1,0 +1,4 @@
+## Migrations for GenInv
+- To get started, run `alembic upgrade head` to execute up to the most recent revision
+- To downgrade, run `alembic downgrade {hash}` to go to a specific revision, or `alembic downgrade -1` to go to the previous revision.
+- To generate a migration, run `alembic revision -m "{migration message}"` and edit the generated file in `migrations/versions` or run the previous command with the `--autogenerate` flag to automatically generate a migration based on the models present in `models/database`
