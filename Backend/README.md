@@ -29,8 +29,8 @@ Database migrations are handled by [Alembic](https://alembic.sqlalchemy.org/en/l
 
 ## API Server
 The project is a [FastAPI](https://fastapi.tiangolo.com/) project
-Start API Server using `uvicorn main:app`
-To auto-reload server (useful during development) use `uvicorn main:app --reload`
+- Start API Server using `uvicorn main:app`
+- To auto-reload server (useful during development) use `uvicorn main:app --reload`
 
 #### Docs
 Swagger docs are available at `http://[host]:[port]/docs`
